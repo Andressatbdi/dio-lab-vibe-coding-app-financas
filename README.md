@@ -29,6 +29,7 @@ Um bom PRD deve descrever o problema, quem será beneficiado, as principais func
 # Contexto
 Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
 A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Ter um clima mais descontrido para tornar tudo isso mais atrativo.
 
 # Problema
 Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
@@ -43,6 +44,11 @@ Pessoas que querem começar a organizar suas finanças de forma prática e sem c
 3. Definir e acompanhar metas financeiras.  
 4. Receber dicas de economia do “Agente Financeiro”.  
 5. Visualizar relatórios simples e personalizados.
+6. Fácil acesso para PCD.
+7. Ter opção blak/light.
+8. Troféu a cada conquista de meta.
+9. Icones que represente cada tipo de gasto, ou meta.
+10. Ser incentivador de economia de gastos.
 
 # Entregável da IA
 Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
