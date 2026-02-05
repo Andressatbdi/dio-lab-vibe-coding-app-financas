@@ -44,18 +44,15 @@ Pessoas que querem começar a organizar suas finanças de forma prática e sem c
 3. Definir e acompanhar metas financeiras.  
 4. Receber dicas de economia do “Agente Financeiro”.  
 5. Visualizar relatórios simples e personalizados.
-6. Fácil acesso para PCD.
-7. Ter opção blak/light.
-8. Troféu a cada conquista de meta.
-9. Icones que represente cada tipo de gasto, ou meta.
-10. Ser incentivador de economia de gastos.
 
 # Entregável da IA
 Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
 Usar tom educativo e linguagem acessível, em português.
 ```
-
 Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+
+## Observação:
+- Preferi usar Copilit/base44
 
 > [!TIP]
 > Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
@@ -79,16 +76,117 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
+- Seu **prompt final** (PRD); # Aplicativo de Organização de Finanças Pessoais
+
+## Este projeto foi 
+📌 Descrição
+Este projeto tem como objetivo facilitar o controle financeiro de forma simples e natural, por meio de conversas com o usuário.  
+A proposta é substituir formulários e planilhas complexas por uma experiência leve e descontraída, incentivando o usuário a manter seus gastos organizados.
+
+ ## 🎯 Problema
+Muitas pessoas desistem de controlar seus gastos porque os aplicativos atuais exigem muita entrada manual e oferecem pouca personalização.  
+Este projeto busca resolver isso com uma interface conversacional e recomendações automáticas de economia.
+
+ ## 👥 Público-Alvo
+- Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação.  
+- Usuários iniciantes que nunca usaram apps de finanças ou desistiram por achar complicado.  
+- Jovens adultos começando a cuidar do próprio dinheiro.
+
+ ## ⚙️ Funcionalidades
+1. Registrar gastos via chat em linguagem natural.  
+2. Classificar automaticamente as transações.  
+3. Definir e acompanhar metas financeiras.  
+4. Receber dicas de economia do “Agente Financeiro”.  
+5. Visualizar relatórios simples e personalizados.  
+6. Fácil acesso para PCD (acessibilidade).  
+7. Alternar entre tema claro e escuro.  
+8. Troféus por conquistas de metas.  
+9. Ícones representativos para cada tipo de gasto ou meta.  
+10. Incentivo à economia de gastos por meio de mensagens motivacionais.  
+11. Login inicial com cadastro de usuário e senha, com opção de lembrar login.  
+
+## 🚀 Diferenciais
+- Conversação natural em vez de formulários.  
+- Gamificação leve (troféus, ícones, conquistas).  
+- Inclusão com acessibilidade para PCD.  
+- Personalização: relatórios e dicas adaptados ao perfil do usuário.  
+
+## 🔮 Próximos Passos
+- Desenhar o fluxo de conversa (user journey).  
+- Definir MVP com funcionalidades prioritárias (chat, classificação automática, metas e relatórios).  
+- Criar identidade visual (ícones, cores, estilo do “Agente Financeiro”).  
+- Realizar testes com usuários iniciantes para validar a experiência.  
+
+## 🛠️ Tecnologias (sugestão)
+- Frontend: React Native ou Flutter.  
+- Backend: Node.js ou Python (Django/FastAPI).  
+- Banco de Dados: PostgreSQL ou MongoDB.  
+- Autenticação: JWT, OAuth (Google/Microsoft/Apple).  
+
+## 📄 Licença
+Este projeto é de caráter acadêmico e pode ser utilizado como base para estudos e desenvolvimento de soluções similares 
+- Prints ou pequenos vídeos das interações com a IA;
+
+https://github.com/user-attachments/assets/c77dac6d-c0cd-4bce-b602-c08e3aa70b34
+
+https://github.com/user-attachments/assets/2541506a-238c-4f64-a626-05351361fdbd
+
+
+- Um resumo do que o seu **App de Finanças Pessoais** faz;
+
+Garante que cada usuário tenha acesso seguro e personalizado ao aplicativo, 
+protegendo seus dados financeiros e permitindo acompanhar suas metas individuais.
+
+### Funcionalidades
+1. Cadastro inicial
+   - Usuário informa nome, e-mail e senha.
+   - Opção de login social (Google/Microsoft/Apple) para facilitar.
+
+2. Login
+   - Tela inicial com campos de e-mail e senha.
+   - Opção "lembrar login" para não precisar digitar sempre.
+   - Recuperação de senha via e-mail.
+
+3. Armazenamento seguro
+   - Senhas criptografadas no banco de dados.
+   - Tokens de sessão para manter o usuário autenticado.
+   - Opção de logout manual.
+
+4. Acessibilidade
+   - Campos de login compatíveis com leitores de tela.
+   - Botões grandes e contraste adequado.
+
+5. Personalização pós-login
+   - Após autenticação, o usuário acessa seu painel de finanças.
+   - Dados e metas ficam vinculados à conta criada.
+
+Requisitos Técnicos
+- Utilizar protocolos seguros (HTTPS, TLS).
+- Implementar criptografia de senhas (ex.: bcrypt).
+- Garantir conformidade com LGPD (Lei Geral de Proteção de Dados).
+
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+  - O que funcionou bem?
+  - Registro de gastos via conversa funcionou de forma intuitiva.
+  - Definição e acompanhamento de metas foi clara e motivadora.
+  - A IA conseguiu manter um tom leve e educativo, alinhado ao conceito de Vibe Coding.
+ 
+  - O que não funcionou como o esperado?
+  Durante o desenvolvimento e interação com a IA, percebi que o chat teve um ótimo funcionamento no registro de gastos e metas. Em geral,
+  gostei bastante do resultado, pois a experiência foi simples, natural e cumpriu bem o objetivo de tornar o controle financeiro mais acessível.
+ 
+ - O que aprendeu sobre conversar com IAs?
+ 
+ - Aprendi importância de estruturar bem os prompts para guiar a IA.
+ - Como transformar ideias em fluxos funcionais sem precisar escrever código.
+ - Que a experiência conversacional pode realmente substituir formulários tradicionais.
 
 > [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código. 
+
+## link do app de finanças basico
+
+https://pdr-guia-simples.base44.app
 
 ## 💬 Conclusão
 
