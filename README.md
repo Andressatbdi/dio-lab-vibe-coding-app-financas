@@ -184,9 +184,12 @@ Requisitos Técnicos
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código. 
 
-## link do app de finanças basico
+## link do app de finanças basico base44
 
-https://pdr-guia-simples.base44.app
+https://pdr-guia-vida-simples-por-andressad.base44.app
+ ## link do app de finanças basico lovable
+
+https://buddy-spend.lovable.app
 
 ## 💬 Conclusão
 
